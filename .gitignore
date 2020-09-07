@@ -60,3 +60,6 @@ target/
 # Settings
 settings.json
 settings/*
+
+# Pip
+Pipfile*
