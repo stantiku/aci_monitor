@@ -1,0 +1,6 @@
+[
+  {"pod":"1", "node":"101", "interface":"1/1"},
+  {"pod":"1", "node":"101", "interface":"1/2"},
+  {"pod":"1", "node":"102", "interface":"1/1"},
+  {"pod":"1", "node":"102", "interface":"1/2"}
+]
