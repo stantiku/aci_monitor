@@ -1,6 +1,6 @@
 {
-  aci_server: "https://<APIC-IP>",
-  aci_username: "<username>",
-  aci_password: "<password>"
+  "aci_server": "https://<APIC-IP>",
+  "aci_username": "<username>",
+  "aci_password": "<password>"
 }
 
