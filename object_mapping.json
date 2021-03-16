@@ -1,0 +1,20 @@
+{
+    "phys_domain": {"class": "physDomP", "dn_prefix": "uni/phys-"},
+    "l2_domain": {"class": "l2extDomP", "dn_prefix": "uni/l2dom"},
+    "l3_domain": {"class": "l3extDomP", "dn_prefix": "uni/l3dom"},
+    "vlan_pool": {"class": "fvnsVlanInstP", "dn_prefix": "uni/infra/vlanns-"},
+    "aep": {"class": "infraAttEntityP", "dn_prefix":"attentp-"},
+    "vpc_inst_pol": {"class": "vpcInstPol", "dn_prefix": "uni/fabric/vpcInst-"},
+    "fabric_explicit_group": {"class": "fabricExplicitGEp", "dn_prefix": "uni/fabric/protpol/expgep-"},
+    "infra_access_port_group": {"class": "infraAccPortGrp", "dn_prefix": "uni/infra/funcprof/accportgrp-"},
+    "infra_access_bundle_group": {"class": "infraAccBndlGrp", "dn_prefix": "uni/infra/funcprof/accbundle-"},
+    "intf_profile": {"class": "infraAccPortP", "dn_prefix": "uni/infra/accportprof-"},
+    "leaf_profile": {"class": "infraNodeP", "dn_prefix": "uni/infra/nprof-"},
+    "tenant": {"class": "fvTenant", "dn_prefix":"uni/tn-"},
+    "mgmt_inst_profile": {"class": "mgmtInstP", "dn_prefix":"uni/tn-mgmt/extmgmt-default/instp-"},
+    "snmp_group": {"class": "snmpGroup", "dn_prefix":"uni/fabric/snmp-Group-"},
+    "syslog_group": {"class": "syslogGroup", "dn_prefix":"uni/fabric/slgroup-"},
+    "snmp_src": {"class": "snmpSrc", "dn_prefix":"uni/fabric/moncomon/snmpsrc-"},
+    "syslog_src": {"class": "syslogSrc", "dn_prefix":"uni/fabric/moncommon/slsrc-"},
+    "snmp_pol": {"class": "snmpPol", "dn_prefix":"uni/fabric/snmppol-"}
+}

@@ -11,10 +11,11 @@
 * [Contact](#contact)
 
 ## General info
-The purpose of this project is to generate a REST call to Cisco APIC and show interface throughput statistics.
+The purpose of this project is to generate a REST call to Cisco APIC and show interface throughput statistics. New function enables querying objects inside the specified classes.
 
 ## Screenshots
 ![Example screenshot](./img/aci_monitor_screenshot.png)
+![Example screenshot](./img/class_query_screenshot.png)
 
 ## Setup
 * Clone the project
@@ -23,11 +24,13 @@ The purpose of this project is to generate a REST call to Cisco APIC and show in
 
 ## Code Examples
 Show examples of usage:
-python main.py
+To show interface stats: python main.py
+To list objects inside classes: python class_query.py
 
 ## Features
 List of features ready and TODOs for future development
 * Monitor interface's ingress/egress Bps and Pps
+* List object names based on the specified classes
 
 To-do list:
 * Add other type of queries
