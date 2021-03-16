@@ -23,7 +23,9 @@ The purpose of this project is to generate a REST call to Cisco APIC and show in
 * Modify the intf_list.json and add the interfaces to monitor
 
 ## Code Examples
-Show examples of usage:  To show interface stats: python main.py  To list objects inside classes: python class_query.py
+Show examples of usage:  
+To show interface stats: python main.py  
+To list objects inside classes: python class_query.py
 
 ## Features
 List of features ready and TODOs for future development
